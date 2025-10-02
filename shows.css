@@ -43,13 +43,6 @@ header {
   border-bottom: 4px solid #f04;
 }
 
-#logo {
-  width: 70px;
-  display: block;
-  margin: 0 auto;
-  transform: rotate(-2deg);
-}
-
 nav ul {
   display: flex;
   justify-content: center;
