@@ -1,0 +1,41 @@
+<DOCTYPE html>
+<header>
+  <img src="placeholder.jpg" alt="Logo" id="logo">
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Pix</a></li>
+      <li><a href="shows.html">Shows</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+  
+<body>
+<main>
+  <section class="booking-form">
+    <h3>Book a Spot / Get in Touch</h3>
+    <form id="booking" action="https://formspree.io/f/xldlzajv" method="POST">
+      <label for="name">Name *</label>
+      <input type="text" id="name" name="name" placeholder="Buzz Killington" required>
+
+      <label for="email">Email *</label>
+      <input type="email" id="email" name="email" placeholder="jonathanrottenbourne@buzzbin.org" required>
+
+      <label for="reason">Reason for Contact *</label>
+      <input type="text" id="reason" name="reason" placeholder="What do you want?" required>
+
+      <label for="message">Message *</label>
+      <textarea id="message" name="message" rows="4" placeholder="Spit It Out" required></textarea>
+
+      <button type="submit">Send</button>
+        <input type="hidden" name="_redirect" value="thankyou.html">
+    </form>
+  </section>
+</main>
+</body>
+  
+<footer>
+  <p>&copy; 2025 Toni DeVoe</p>
+</footer>
+</html>
