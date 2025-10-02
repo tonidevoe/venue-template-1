@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+body {
+  background-color: #000;
+  background-image: url("https://www.transparenttextures.com/patterns/otis-redding.png");
+  color: #f4f4f4;
+  font-family: "Special Elite", monospace;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  text-align: center;
+  overflow-x: hidden;
+  text-shadow: 1px 1px 0 #000;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0.5rem 0; 
+}
+
+a {
+  text-decoration: none;
+  color: #f04;
+  font-weight: bold; 
+  transition: 0.2s; 
+}
+
+a:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #f04;
+}
+
+.lorem em {
+  cursor: pointer;
+  color: #f04;
+  transition: 0.2s;
+}
+
+.lorem em:hover {
+  color: #fff; 
+  text-shadow: 0 0 5px #f04; 
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+  background: #000; 
+  border-bottom: 4px solid #f04; 
+}
+
+nav ul {
+  display: flex; 
+  justify-content: center; 
+  gap: 2rem; 
+  list-style: none; 
+  padding: 0; 
+  margin: 1rem 0; 
+  transform: rotate(-0.5deg); 
+}
+
+nav a, nav button {
+  font-family: "Special Elite", monospace; 
+  color: #f04;
+  font-weight: bold; 
+  background: none; 
+  border: 2px solid transparent;
+  padding: 0.3rem 0.7rem; 
+  cursor: pointer; 
+  transition: 0.2s; 
+  display: inline-block; 
+}
+
+nav a:hover, nav button:hover { 
+  background: #f04; 
+  color: #000; 
+  border-color: #f04; 
+  transform: translateY(-3px) rotate(-2deg); 
+}
+
+.about { 
+  padding: 1rem; 
+  color: #dcdcdc; 
+}
+
+.about h2 { 
+  color: #d10030; 
+  font-size: 2.5rem; 
+  font-weight: 900; 
+  transform: rotate(2deg); 
+  letter-spacing: 3px; 
+  display: inline-block; 
+  padding: 0.2em 0.6em; 
+  background: #000; 
+  box-shadow: 2px 2px 0 #d10030; 
+  border: 2px solid #f04;
+  margin: 0.3em 0; 
+}
+
+.about p {
+  line-height: 1.6; 
+  margin-bottom: 1.5em; 
+}
+
+.poster-wall {
+  padding: 1rem; 
+  text-align: center; 
+  color: #f04; 
+  margin-top: 2em; 
+}
+
+.poster-wall h2 { 
+  color: #d10030; 
+  font-size: 2.5rem; 
+  font-weight: 900; 
+  transform: rotate(-1deg); 
+  letter-spacing: 3px; 
+  display: inline-block; 
+  padding: 0.2em 0.6em; 
+  background: black; 
+  box-shadow: 2px 2px 0 #d10030; 
+  border: 2px solid #f04; 
+  margin: 0.5em 0; 
+}
+
+.poster-grid { 
+  display: flex; 
+  justify-content: center; 
+  gap: 2rem; 
+  padding: 2rem 1rem; 
+  flex-wrap: wrap; 
+}
+
+.poster { 
+  flex: 1 1 250px; 
+  max-width: 250px; 
+  background: linear-gradient(145deg, #111, #222 70%); 
+  border: 5px solid #f04;
+  border-radius: 8px; padding: 1.5rem; 
+  text-align: center; 
+  box-shadow: 0 6px 15px rgba(255,0,68,0.7); 
+  transition: all 0.4s ease; 
+  color: #f04; 
+}
+
+.poster:hover {
+  transform: scale(1.12) rotate(-1deg); 
+  box-shadow: 0 12px 30px rgba(255,0,68,1), 0 0 20px #ff0044 inset; 
+  z-index: 2; 
+}
+
+.poster h4 {
+  margin: 0.7rem 0 0.5rem; 
+  font-size: 1.6rem; 
+}
+
+.poster p { 
+  font-size: 1.1rem; 
+  color: #f4f4f4; 
+}
+
+.poster img { 
+  max-width: 100%; 
+  border: 3px solid #f04; 
+  margin-bottom: 0.5rem; 
+}
+
+.all-shows-link .btn { 
+  color: #000; 
+  font-size: 1.2rem; 
+  font-weight: 900; 
+  letter-spacing: 1.5px; 
+  display: inline-block; 
+  padding: 0.3em 0.8em; 
+  background: #f04;
+  border: 2px solid #000; 
+  border-radius: 6px;
+  text-transform: uppercase; 
+  box-shadow: 3px 3px 0 #000, inset 0 0 5px rgba(0,0,0,0.3); 
+  transition: 0.2s; 
+}
+
+.all-shows-link .btn:hover { 
+  transform: scale(1.08); 
+  box-shadow: 5px 5px 0 #000, inset 0 0 8px rgba(0,0,0,0.4); 
+  background: #ff0044; 
+  color: #fff; 
+}
+
+footer { 
+  text-align: center; 
+  padding: 2rem; 
+  background: #000;
+  border-top: 4px solid #f04; 
+}
+
+#bigred-btn { 
+  background: #f00; 
+  color: #fff; 
+  border: 3px solid #800000; 
+  padding: 0.5rem 1rem; 
+  font-family: 'Special Elite', monospace; 
+  font-weight: bold; 
+  text-transform: uppercase;
+  cursor: pointer; 
+  transition: 0.2s; 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.5); 
+}
+
+#bigred-btn:hover { 
+  background: #800000; 
+  transform: scale(1.05) rotate(-2deg); 
+}
+
+body.rsod-active { 
+  background: #8b0000 url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png") repeat;
+  color: #fff; 
+  font-family: "Courier New", monospace;
+  animation: flicker 0.3s infinite alternate; 
+  overflow: hidden; 
+}
+
+@keyframes flicker {
+  0% { 
+    opacity: 1;
+  } 100% { 
+    opacity: 0.98;
+  }
+}
+
+#error-bg { 
+  position: fixed; 
+  top: 0;
+  left: 0; 
+  width: 100vw; 
+  height: 100vh; 
+  z-index: 9998; 
+  background: black; 
+  color: #ff4444; 
+  font-family: monospace; 
+  font-size: 14px; 
+  line-height: 1.2; 
+  white-space: pre; 
+  overflow: hidden; 
+  user-select: none; 
+  text-shadow: 0 0 5px #ff0000, 0 0 10px #cc0000; 
+  display: none; 
+}
+
+#error-popup { 
+  position: fixed; 
+  top: 20%; 
+  left: 50%; 
+  transform: translateX(-50%);
+  background: #c00000; 
+  color: white;
+  border: 3px solid #ff4444; 
+  box-shadow: 0 0 20px #ff0000, inset 0 0 10px #660000;
+  width: 400px; 
+  font-family: "Courier New", monospace; 
+  z-index: 9999; 
+  display: none; 
+}
+
+.popup-titlebar {
+  background: linear-gradient(#ff6666,#990000);
+  padding: 4px 8px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  border-bottom: 2px solid #660000; 
+}
+
+#popup-close { 
+  background: #ff3333;
+  color: white; 
+  border: none;
+  width: 20px; 
+  height: 20px; 
+  cursor: pointer; 
+  box-shadow: inset -1px -1px 0 #660000, inset 1px 1px 0 #ff9999; 
+}
+
+#popup-close:hover {
+  background: #ff6666; 
+}
+
+.popup-content { 
+  padding: 15px; 
+  font-size: 14px; 
+}
+#restore-btn { 
+  margin-top: 10px; 
+  background: #ff0000; 
+  color: white; 
+  border: 2px solid #ff6666; 
+  padding: 5px 15px; 
+  cursor: pointer; 
+  font-weight: bold;
+  box-shadow: inset -2px -2px 0 #660000, inset 2px 2px 0 #ff9999; 
+}
+
+#restore-btn:hover { 
+  background: #ff3333; 
+}
