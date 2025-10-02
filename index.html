@@ -1,0 +1,58 @@
+<DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Venue Template 1</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+  <header>
+    <img src="images/placeholder.jpg" alt="logo" id="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Pix</a></li>
+        <li><a href="shows.html">Shows</a></li>
+        <li><a href="contact.html">Contakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>About</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus <a href="#" class="lorem"><em>ipsum</em></a>.</p>
+    </section>
+
+    <hr>
+
+    <section class="poster-wall">
+      <h2>Upcoming Shows</h2>
+      <div class="poster-grid" id="shows"></div>
+      <div class="all-shows-link">
+        <a href="shows.html" class="btn">See All Shows & Details</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Toni DeVoe</p>
+    <button id="bigred-btn" aria-label="Activate RSOD"><small>do not</small></button>
+  </footer>
+
+  <div id="error-bg"></div>
+  <div id="error-popup" role="alert" aria-live="assertive" aria-modal="true">
+    <div class="popup-titlebar">
+      <span class="popup-title">Fatal Error</span>
+      <button id="popup-close" aria-label="Close error popup">X</button>
+    </div>
+    <div class="popup-content">
+      <p>SYSTEM FAILURE<br>VenueDemo has crashed.<br>Click OK to reboot</p>
+      <button id="restore-btn" aria-label="Restore site">OK</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
