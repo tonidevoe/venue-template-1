@@ -14,14 +14,6 @@ body {
   cursor: url('https://i.imgur.com/c2Ybh7n.png'), auto;
 }
 
-#logo {
-  width: 250px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  transform: rotate(-2deg);
-}
-
 header {
   text-align: center;
   padding: 1rem;
