@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body {
+  background-color: #000;
+  background-image: url("https://www.transparenttextures.com/patterns/otis-redding.png");
+  color: #f4f4f4;
+  font-family: 'Special Elite', monospace;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  text-align: center;
+  overflow-x: hidden;
+  text-shadow: 1px 1px 0 #000;
+  cursor: url('https://i.imgur.com/c2Ybh7n.png'), auto;
+}
+
+#logo {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  transform: rotate(-2deg);
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+  background: #000;
+  border-bottom: 4px solid #f04;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  transform: rotate(-2deg);
+}
+
+nav a {
+  all: unset;
+  font-family: 'Special Elite', monospace;
+  color: #f04;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0.3rem 0.7rem;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  background: #f04;
+  color: #000;
+  border: 2px solid #f04;
+  transform: translateY(-3px) rotate(-2deg);
+}
+
+.booking-form {
+  background: #111;
+  border: 3px solid #f04;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  font-family: 'Special Elite', monospace;
+  text-transform: uppercase;
+  color: #f4f4f4;
+  transform: rotate(-1deg);
+}
+
+.booking-form h3 {
+  color: #f04;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.booking-form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #f04;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  width: 100%;
+  background: #222;
+  border: 2px solid #f04;
+  color: #f4f4f4;
+  font-family: 'Special Elite', monospace;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  outline: none !important;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+  border-color: #f04;
+  outline: none !important;
+}
+
+.booking-form button {
+  background: #f04;
+  color: #000;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Special Elite', monospace;
+  padding: 0.7rem 1.5rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.booking-form button:hover {
+  background: #fff;
+  color: #f04;
+  transform: rotate(0deg);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem 3rem;
+  background: #000;
+  border-top: 4px solid #f04;
+  color: #f4f4f4;
+  user-select: none;
+}
+
+footer a {
+  color: #f04;
+  text-decoration: underline;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ff4444;
+}
