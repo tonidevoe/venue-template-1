@@ -55,8 +55,9 @@ nav ul {
   justify-content: center;
   gap: 2rem;
   list-style: none;
-  padding: 0;
   margin: 1rem 0 0;
+  padding: 0;
+  transform: rotate(-2deg);
 }
 
 nav a,
@@ -95,7 +96,7 @@ nav button:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 6rem;
-  row-gap: 6rem;
+  row-gap: 3rem;
   justify-items: center;
   align-items: start;
   max-width: 1200px;
